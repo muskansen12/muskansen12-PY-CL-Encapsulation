@@ -56,7 +56,7 @@ class BankAccount:
         Returns:
         - float: The current balance of the account.
         """
-        return 0
+        return self._balance
 
     def get_account_number(self):
         """
@@ -66,4 +66,4 @@ class BankAccount:
         Returns:
         - str: The account number of the account.
         """
-        return 0
+        return self._account_number
